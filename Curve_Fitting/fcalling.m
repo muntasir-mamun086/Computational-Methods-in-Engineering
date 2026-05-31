@@ -1,0 +1,11 @@
+clc;
+clear;
+x = input(" Enter the X value in Row Matrix form : ");
+y = input(" Enter the X value in Row Matrix form :");
+z = input (" Enter the Order of polynomial (integer number) : ");
+x = x';
+y = y';
+poly_curve_fitting(x,y,z);
+xlabel(" X-Value ");
+ylabel ("Y-Value");
+title('Curve Fitting by Polynomial');
